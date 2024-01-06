@@ -1,0 +1,123 @@
+.dv1{
+    width: 150px;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+    margin: 2px;
+    outline: 3px;
+    outline-offset: 2px;
+    outline-color: blueviolet;
+    border: 3px;
+    border-radius: 5px;
+    border-style: double;
+    border-color: red, green, blue, yellow;
+    padding: 16px;
+    float: left;
+}
+.dv2{
+    width: 150px;
+    height: 300px;
+    overflow-y: auto;
+    background-color: rgb(0, 255, 136);
+    color: rgb(20, 18, 18);
+    margin: 10px;
+    outline: 10px;
+    outline-offset: 2px;
+    outline-color: blueviolet;
+    border: 10px;
+    border-radius: 5px;
+    border-style: double;
+    box-sizing: border-box;
+    border-color: red, green, blue, yellow;
+    padding: 20px;
+    float: left;
+}
+
+
+.bx3{
+    width: 150px;
+    height: 300px;
+    margin: 32px;
+    outline: 16px;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-color: blue;
+    border: 10px double;
+    border-color: greenyellow red deepskyblue darkgreen;
+    border-radius: 5px;
+    float: left;
+    overflow-y: auto;
+}
+
+.bx4{
+    width: 150px;
+    height: 300px;
+    margin: 48px;
+    outline: 16px;
+    outline-offset: 3px;
+    outline-style: solid;
+    outline-color: chartreuse;
+
+    overflow-y: auto;
+    float: left;
+}
+
+.bx5{
+    width: 150px;
+    height: 300px;
+    margin: 48px;
+    outline: 16px;
+    outline-offset: 3px;
+    outline-style: solid;
+    outline-color: chartreuse;
+    border: 16px;
+    border-style: solid;
+    border-color: deeppink deepskyblue darkslateblue darkgreen;
+    overflow-y: auto;
+    float: left;
+}
+
+.bx6{
+    width: 150px;
+    height: 300px;
+    margin: 48px;
+    outline: 16px;
+    outline-offset: 3px;
+    outline-style: solid;
+    outline-color: chartreuse;
+    border: 16px;
+    border-style: solid;
+    border-color: deeppink deepskyblue darkslateblue darkgreen;
+    border-radius: 5px;
+    overflow-y: auto;
+    float: left;
+}
+
+
+
+
+
+
+bx6{
+    width: 300px;
+    height: 300px;
+    margin: 32px;
+    outline: 2px, blue, solid, 10px;
+    float: left;
+}
+.dv6{
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+    margin: 20px;
+    outline: 16px solid;
+    outline-offset: 1px;
+    outline-color: blueviolet;
+    border: 32px;
+    border-radius: 8px;
+    border-style: double;
+    border-color: red, green, blue, yellow;
+    padding: 30px;
+    float: none;
+}
+
