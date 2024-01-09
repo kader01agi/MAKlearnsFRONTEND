@@ -1,0 +1,16 @@
+.lista{
+    list-style-type: square;
+}
+
+
+.listb{
+    list-style-type: circle;
+}
+
+.listc{
+    list-style-type: decimal-leading-zero;
+}
+
+.listc{
+    list-style-type: upper-alpha;
+}
