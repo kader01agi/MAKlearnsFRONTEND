@@ -79,14 +79,14 @@ ul li a{
     border: 2px solid red;
     box-sizing: border-box;    
 }
-/* .player7{
+.player7{
     width: 20px;
     height: 20px;
     border: 2px solid blue;
     box-sizing: border-box;
     position: absolute;
-    top: 250px;
-    left: 200px;
+    top: 180px;
+    right: 200px;
 }
 .player8{
     width: 20px;
@@ -94,9 +94,37 @@ ul li a{
     border: 2px solid blue;
     box-sizing: border-box;
     position: absolute;
+    top: 430px;
+    right: 200px;
+}
+
+.player9{
+    width: 20px;
+    height: 20px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100px;
+    right: 550px;
+}
+.player10{
+    width: 20px;
+    height: 20px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    position: absolute;
     top: 500px;
-    left: 200px;
-} */
+    right: 550px;
+}
+.player11{
+    width: 20px;
+    height: 20px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    position: absolute;
+    top: 360px;
+    right: 550px;
+}
 
 
 .part2 {
