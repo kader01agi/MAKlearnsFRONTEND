@@ -2,12 +2,15 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    color: #ccc;
     
 }
-
+body{
+    background-color: #333;
+}
 .menuArea{
     max-width: 100%;
-    background-color: gray;
+    background-color: #025337;
 }
 .alignment{
     display: flex;
@@ -26,7 +29,7 @@
 .mainMenu li a{
     display: block;
     text-decoration: none;
-    color: #000;
+    /* color: #000; */
     padding: 1em;
 }
 .mainMenu li a:visited{
@@ -89,4 +92,35 @@
     left: 100%;
     top: 0px;
 }
+/* ///////////////FORM////////////////// */
+
+
+.mainDiv{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    max-width: 60%;
+    height: 450px;
+    /* border: 2px solid black; */
+    color: #000;
+    background-color: #3737e8ba;
+    margin: auto;
+    margin-top: 100px;
+
+    
+}
+.form{
+    /* display: flex; */
+
+    width: 100%;
+    height: auto;
+    margin: 16px;
+    
+}
+
+.formHeader{
+    color: #000;
+    border-bottom: 1px solid rgb(46, 57, 29);
+}
+
 /* ///////////////////////////////// */
