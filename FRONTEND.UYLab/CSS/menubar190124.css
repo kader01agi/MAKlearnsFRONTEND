@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+}
+:root{
+    --BGC: #555;
+}
+/* /////////////////////////////////////////////////////////////////////////// */
+
+.menuArea{
+    background-color: #555;
+}
+.alignment{
+    width: 80%;
+    margin: auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+}
+.menu li a{
+    text-decoration: none;
+    display: block;
+    padding: 16px 10px;
+}
+/* ///////////// */
+.menu li a:hover{
+    background-color: rgba(10, 250, 10, 0.6);
+    transition: 1s;
+    font-size: 20px;
+}
+/* //////////// */
+.t1{
+    display: none;
+    list-style-type: none;
+    background-color: var(--BGC);
+    /* width: 100%; */
+    position: absolute;
+    
+}
+.menu li:hover .t1{
+    display: block;
+}
+.menu li{
+    position: relative;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+.t2{
+    display: none;
+    list-style-type: none;
+    background-color: var(--BGC);
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0;
+}
+.t1 li:hover .t2{
+    display: block;
+}
+.t1 li{
+    position: relative;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+.blog{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    background-color: var(--BGC);
+    /* width: 100%; */
+}
+.menu li:hover .blog{
+    display: block;
+}
+.menu li{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
